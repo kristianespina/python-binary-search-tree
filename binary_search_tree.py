@@ -66,10 +66,7 @@ class BinaryTree:
         for element in nodes:
             self.root.insert(element)
         return(self.convert_to_array())
-        
-'''
-Study Depth First Search or[?] Breadth First Search
-'''
+
 tree = BinaryTree()
 for i in range(50):
     tree.insert(randint(0,100))
